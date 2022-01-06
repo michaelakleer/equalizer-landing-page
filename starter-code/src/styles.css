@@ -12,6 +12,10 @@ body {
   background-size: cover;
 }
 
+.content {
+  padding: 0 60px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 88px;
@@ -25,8 +29,17 @@ h2 {
   padding-bottom: 20px;
 }
 
+h3 {
+  font-weight: 700;
+}
+
+header h3 {
+  padding: 20px 0;
+}
+
 .section-one {
   color: var(--black);
+  padding: 0 150px 0 0;
 }
 
 .section-one p {
@@ -47,6 +60,11 @@ h2 {
   font-size: 20px;
   line-height: 34px;
   padding-bottom: 25px;
+}
+
+.mobile {
+  width: 312px;
+  height: 642px;
 }
 
 .dollar {
