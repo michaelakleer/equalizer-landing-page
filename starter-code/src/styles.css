@@ -8,6 +8,8 @@
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
+  background-image: url(../assets/bg-main-desktop.png);
+  background-size: cover;
 }
 
 h1 {
