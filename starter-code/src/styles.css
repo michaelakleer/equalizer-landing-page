@@ -36,6 +36,16 @@ h2 {
   line-height: 26px;
 }
 
+.apple-btn:hover {
+  background: var(--sky-blue) !important;
+  border-color: var(--sky-blue) !important;
+}
+
+.android-btn:hover {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+
 .btn-apple-icon {
   padding: 0 5px 5px 0;
 }
