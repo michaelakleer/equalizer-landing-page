@@ -9,3 +9,24 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 88px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.section-one {
+  color: var(--black);
+}
+
+.section-one p {
+  font-size: 20px;
+  line-height: 34px;
+}
