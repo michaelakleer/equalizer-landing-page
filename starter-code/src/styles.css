@@ -110,3 +110,8 @@ header h3 {
 .btn-android-icon {
   padding: 0 5px 3px 0;
 }
+
+.container-two img {
+  position: relative;
+  top: -30px;
+}
