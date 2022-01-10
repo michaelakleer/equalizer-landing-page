@@ -111,7 +111,16 @@ header h3 {
   padding: 0 5px 3px 0;
 }
 
-.container-two img {
+.container-two .mobile {
   position: relative;
   top: -30px;
+}
+
+.design-container {
+  background: var(--black);
+  max-width: 1110px;
+  max-height: 800px;
+}
+
+.design-container img {
 }
