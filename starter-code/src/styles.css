@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-  padding: 0 60px;
+  padding: 0 115px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ header h3 {
 
 .section-one {
   color: var(--black);
-  padding: 0 150px 0 0;
+  padding: 0 110px 0 0;
 }
 
 .section-one p {
