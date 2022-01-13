@@ -120,4 +120,5 @@ header img {
   background: var(--black);
   max-width: 1110px;
   max-height: 800px;
+  border-radius: 10px;
 }
