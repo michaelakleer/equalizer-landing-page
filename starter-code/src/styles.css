@@ -138,7 +138,7 @@ header {
   padding: 0 5px 3px 0;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .content {
     padding: 0 35px;
   }
@@ -157,18 +157,67 @@ header {
 
   .header-pattern {
     position: absolute;
-    top: -18px;
-    right: 30px;
+    top: -32px;
+    right: -40px;
     width: 266px;
     height: 400px;
   }
 
   .section-one {
-    padding: 40px 160px 250px 0;
+    padding: 40px 190px 190px 0;
   }
 
   .section-one p {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .section-two-container {
+    max-width: 696px;
+    max-height: 600px;
+    border-radius: 10px;
+  }
+
+  .section-two .pattern {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    top: -115px;
+    left: 220px;
+  }
+
+  .section-two .mobile {
+    width: 270px;
+    height: 556px;
+    position: relative;
+    top: -155px;
+    left: -230px;
+  }
+
+  .premium-eq {
+    width: 399px;
+    height: 546px;
+    padding: 40px;
+    position: relative;
+    bottom: 420px;
+    left: 233px;
+  }
+
+  .premium-eq p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 15px;
+  }
+
+  footer {
+    padding-bottom: 30px;
+  }
+
+  footer .equalizer-logo {
+    padding-bottom: 25px;
+  }
+
+  .social-media img {
+    padding: 0 4px;
   }
 }
