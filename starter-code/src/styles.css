@@ -29,10 +29,6 @@ h2 {
   padding-bottom: 20px;
 }
 
-h3 {
-  font-weight: 700;
-}
-
 header {
   padding: 50px 0;
 }
@@ -140,4 +136,21 @@ header {
 
 .btn-android-icon {
   padding: 0 5px 3px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    padding: 0 50px;
+  }
+
+  h1 {
+    font-size: 64px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
 }
