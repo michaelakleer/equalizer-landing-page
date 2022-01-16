@@ -140,17 +140,35 @@ header {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .content {
-    padding: 0 50px;
+    padding: 0 35px;
   }
 
   h1 {
     font-size: 64px;
     letter-spacing: -1px;
+    padding-bottom: 22px;
   }
 
   h2 {
     font-size: 32px;
     line-height: 40px;
     padding-bottom: 20px;
+  }
+
+  .header-pattern {
+    position: absolute;
+    top: -18px;
+    right: 30px;
+    width: 266px;
+    height: 400px;
+  }
+
+  .section-one {
+    padding: 40px 160px 250px 0;
+  }
+
+  .section-one p {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
