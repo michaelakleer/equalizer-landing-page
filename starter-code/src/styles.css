@@ -16,8 +16,12 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background-image: url(../assets/bg-main-desktop.png);
   background-size: cover;
-  height: 100vh;
-  box-sizing: border-box;
+}
+
+.body-design {
+  background: url(../assets/bg-pattern-1.svg);
+  background-repeat: no-repeat;
+  background-position: top -40px right 1px;
 }
 
 .content {
@@ -155,6 +159,17 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    width: 100%;
+  }
+
+  .body-design {
+    background: url(../assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    background-position: top -30px right -10px;
+    background-size: 266px 400px;
+  }
+
   .content {
     padding: 0 35px;
   }
@@ -169,14 +184,6 @@ footer {
     font-size: 32px;
     line-height: 40px;
     padding-bottom: 20px;
-  }
-
-  .header-pattern {
-    position: absolute;
-    top: -32px;
-    right: -40px;
-    width: 266px;
-    height: 400px;
   }
 
   .section-one {
@@ -231,6 +238,10 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .body-design {
+    background: none;
+  }
+
   .content {
     padding: 0;
   }
