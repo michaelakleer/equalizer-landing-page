@@ -138,6 +138,14 @@ header {
   padding: 0 5px 3px 0;
 }
 
+footer {
+  padding-bottom: 30px;
+}
+
+.social-media img {
+  padding: 0 4px;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .content {
     padding: 0 35px;
@@ -209,15 +217,76 @@ header {
     padding-bottom: 15px;
   }
 
-  footer {
-    padding-bottom: 30px;
+  footer .equalizer-logo {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  header {
+    padding: 40px 0 40px 30px;
+  }
+
+  .header-pattern {
+    display: none;
+  }
+
+  .section-one {
+    padding: 40px 0 60px 40px;
+  }
+
+  .section-one p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .section-two-container {
+    max-width: 375px;
+    max-height: 600px;
+    border-radius: 10px;
+  }
+
+  .section-two .pattern {
+    width: 280px;
+    height: 420px;
+    position: relative;
+    top: -115px;
+    left: 220px;
+  }
+
+  .section-two .mobile {
+    width: 208px;
+    height: 430px;
+    position: relative;
+    top: -155px;
+    left: -230px;
+  }
+
+  .premium-eq {
+    width: 399px;
+    height: 546px;
+    padding: 40px;
+    position: relative;
+    bottom: 420px;
+    left: 233px;
+  }
+
+  .premium-eq p {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 15px;
   }
 
   footer .equalizer-logo {
     padding-bottom: 25px;
-  }
-
-  .social-media img {
-    padding: 0 4px;
   }
 }
