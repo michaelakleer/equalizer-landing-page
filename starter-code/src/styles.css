@@ -6,11 +6,18 @@
   --yellow: #ffb964;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
   background-image: url(../assets/bg-main-desktop.png);
   background-size: cover;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 .content {
