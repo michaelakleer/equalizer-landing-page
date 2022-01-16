@@ -16,6 +16,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background-image: url(../assets/bg-main-desktop.png);
   background-size: cover;
+  background-position: top -250px left -250px;
 }
 
 .body-design {
@@ -161,6 +162,8 @@ footer {
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     width: 100%;
+    background-size: cover;
+    background-position: top -200px left -200px;
   }
 
   .body-design {
