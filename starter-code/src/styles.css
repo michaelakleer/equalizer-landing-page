@@ -10,6 +10,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background-image: url(../assets/bg-main-desktop.png);
   background-size: cover;
+  height: 100vh;
 }
 
 .content {
@@ -232,8 +233,13 @@ footer {
     line-height: 48px;
   }
 
+  h2 {
+    padding-bottom: 8px;
+    margin-bottom: 0;
+  }
+
   header {
-    padding: 40px 0 40px 30px;
+    padding: 40px 0 40px 20px;
   }
 
   .header-pattern {
@@ -241,7 +247,7 @@ footer {
   }
 
   .section-one {
-    padding: 40px 0 60px 40px;
+    padding: 40px 0 140px 20px;
   }
 
   .section-one p {
@@ -249,9 +255,13 @@ footer {
     line-height: 26px;
   }
 
+  .section-two {
+    padding: 0 0 430px;
+  }
+
   .section-two-container {
     max-width: 375px;
-    max-height: 600px;
+    max-height: 546px;
     border-radius: 10px;
   }
 
@@ -259,34 +269,55 @@ footer {
     width: 280px;
     height: 420px;
     position: relative;
-    top: -115px;
-    left: 220px;
+    top: 0px;
+    left: 40px;
   }
 
   .section-two .mobile {
     width: 208px;
     height: 430px;
     position: relative;
-    top: -155px;
-    left: -230px;
+    top: -515px;
+    left: 75px;
   }
 
   .premium-eq {
-    width: 399px;
+    width: 375px;
     height: 546px;
-    padding: 40px;
+    padding: 30px;
     position: relative;
-    bottom: 420px;
-    left: 233px;
+    top: -460px;
+    left: 0px;
   }
 
   .premium-eq p {
-    font-size: 18px;
-    line-height: 28px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+
+  .apple-btn {
+    margin-bottom: 5px;
+  }
+
+  .android-btn {
+    margin-top: 5px;
+  }
+
+  footer {
+    padding: 0 0 50px 20px;
+  }
+
+  footer p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 0 20px 0;
   }
 
   footer .equalizer-logo {
     padding-bottom: 25px;
+  }
+
+  .social-media img {
+    padding: 0 5px;
   }
 }
