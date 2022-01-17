@@ -41,7 +41,8 @@ h2 {
 
 header {
   color: var(--black);
-  margin: 62px 0 108px;
+  padding: 62px 0 108px 165px;
+  width: 1100px;
 }
 
 header img {
