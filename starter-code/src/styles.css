@@ -55,6 +55,10 @@ header p {
   font-weight: 300;
 }
 
+main {
+  padding: 50px 165px 0;
+}
+
 .section-two {
   padding: 70px 0 200px;
 }
@@ -145,7 +149,7 @@ header p {
 }
 
 footer {
-  padding-bottom: 30px;
+  padding: 0 165px 30px;
 }
 
 .social-media img {
