@@ -21,7 +21,7 @@ body {
 .body-design {
   background: url(../assets/bg-pattern-1.svg);
   background-repeat: no-repeat;
-  background-position: top -40px right 1px;
+  background-position: top -40px right 0px;
 }
 
 h1 {
@@ -41,8 +41,7 @@ h2 {
 
 header {
   color: var(--black);
-  padding: 62px 0 108px 165px;
-  width: 1100px;
+  padding: 62px 401px 120px 165px;
 }
 
 header img {
@@ -56,11 +55,7 @@ header p {
 }
 
 main {
-  padding: 50px 165px 0;
-}
-
-.section-two {
-  padding: 70px 0 200px;
+  padding: 170px 165px 200px;
 }
 
 .section-two-container {
@@ -152,8 +147,13 @@ footer {
   padding: 0 165px 30px;
 }
 
-.social-media img {
-  padding: 0 4px;
+.facebook {
+  padding: 0 8px 0 57px;
+}
+
+.instagram,
+.twitter {
+  padding: 0 8px;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
