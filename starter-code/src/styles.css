@@ -58,14 +58,14 @@ main {
   padding: 170px 165px 200px;
 }
 
-.section-two-container {
+.main-equalizer-container {
   background: var(--black);
   max-width: 1110px;
   max-height: 600px;
   border-radius: 10px;
 }
 
-.section-two .pattern {
+.pattern {
   width: 312px;
   height: 468px;
   position: relative;
@@ -73,7 +73,7 @@ main {
   left: 340px;
 }
 
-.section-two .mobile {
+.mobile {
   width: 312px;
   height: 642px;
   position: relative;
@@ -186,22 +186,22 @@ footer {
     padding-bottom: 20px;
   }
 
-  .section-one {
+  header {
     padding: 40px 190px 190px 0;
   }
 
-  .section-one p {
+  header p {
     font-size: 18px;
     line-height: 28px;
   }
 
-  .section-two-container {
+  .main-equalizer-container {
     max-width: 696px;
     max-height: 600px;
     border-radius: 10px;
   }
 
-  .section-two .pattern {
+  .pattern {
     width: 280px;
     height: 420px;
     position: relative;
@@ -209,7 +209,7 @@ footer {
     left: 220px;
   }
 
-  .section-two .mobile {
+  .mobile {
     width: 270px;
     height: 556px;
     position: relative;
