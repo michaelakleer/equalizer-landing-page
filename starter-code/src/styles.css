@@ -13,15 +13,15 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
   background: url(../assets/bg-main-desktop.png) top -275px left -250px
     no-repeat;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-.body-design {
-  background: url(../assets/bg-pattern-1.svg);
-  background-repeat: no-repeat;
-  background-position: top -40px right 0px;
+.equalizer-design {
+  position: absolute;
+  right: 0;
+  top: -40px;
 }
 
 h1 {
@@ -58,7 +58,7 @@ main {
   padding: 170px 165px 200px;
 }
 
-.main-equalizer-container {
+.equalizer-container {
   background: var(--black);
   max-width: 1110px;
   max-height: 600px;
@@ -158,25 +158,23 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
-    width: 100%;
     background: url(../assets/bg-main-tablet.png) top -205px left -397px
       no-repeat;
+    display: block;
+    max-width: 100%;
   }
 
-  .body-design {
-    background: url(../assets/bg-pattern-1.svg);
-    background-repeat: no-repeat;
-    background-position: top -30px right -10px;
-    background-size: 266px 400px;
-  }
-
-  .content {
-    padding: 0 35px;
+  .equalizer-design {
+    right: 0;
+    top: -40px;
+    width: 266px;
+    height: 400px;
   }
 
   h1 {
     font-size: 64px;
-    letter-spacing: -1px;
+    line-height: 64px;
+    letter-spacing: -0.727px;
     padding-bottom: 22px;
   }
 
@@ -195,10 +193,13 @@ footer {
     line-height: 28px;
   }
 
-  .main-equalizer-container {
-    max-width: 696px;
-    max-height: 600px;
-    border-radius: 10px;
+  main {
+    padding: 70px 0;
+    width: 696px;
+    height: 600px;
+  }
+
+  .equalizer-container {
   }
 
   .pattern {
@@ -230,6 +231,10 @@ footer {
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 15px;
+  }
+
+  footer {
+    padding: 0;
   }
 
   footer .equalizer-logo {
