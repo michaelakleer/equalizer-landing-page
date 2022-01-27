@@ -183,7 +183,7 @@ footer {
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -0.727px;
-    padding-bottom: 22px;
+    margin-bottom: 30px;
   }
 
   h2 {
@@ -202,8 +202,8 @@ footer {
   }
 
   main {
-    margin: 0;
-    padding: 70px 0;
+    margin: 0 0 130px;
+    padding: 0;
   }
 
   .pattern {
@@ -238,11 +238,20 @@ footer {
   }
 
   footer {
-    padding: 0;
+    padding: 0 0 40px;
   }
 
   footer .equalizer-logo {
     padding-bottom: 25px;
+  }
+
+  .facebook {
+    padding: 0 8px 0 45px;
+  }
+
+  .instagram,
+  .twitter {
+    padding: 0 8px;
   }
 }
 
