@@ -6,10 +6,19 @@
   --yellow: #ffb964;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
-  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -160,8 +169,7 @@ footer {
   body {
     background: url(../assets/bg-main-tablet.png) top -205px left -397px
       no-repeat;
-    display: block;
-    max-width: 100%;
+    padding: 0 39px 85px 39px;
   }
 
   .equalizer-design {
@@ -194,12 +202,8 @@ footer {
   }
 
   main {
+    margin: 0;
     padding: 70px 0;
-    width: 696px;
-    height: 600px;
-  }
-
-  .equalizer-container {
   }
 
   .pattern {
