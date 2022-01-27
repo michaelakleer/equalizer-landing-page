@@ -53,7 +53,7 @@ header {
   padding: 62px 401px 120px 165px;
 }
 
-header img {
+header .equalizer-logo {
   margin-bottom: 127px;
 }
 
@@ -169,12 +169,16 @@ footer {
   body {
     background: url(../assets/bg-main-tablet.png) top -205px left -397px
       no-repeat;
-    padding: 0 39px 85px 39px;
+    padding: 0 40px 85px;
+  }
+
+  header .equalizer-logo {
+    margin-bottom: 100px;
   }
 
   .equalizer-design {
-    right: 0;
-    top: -40px;
+    right: -32px;
+    top: -38px;
     width: 266px;
     height: 400px;
   }
@@ -193,7 +197,7 @@ footer {
   }
 
   header {
-    padding: 40px 190px 190px 0;
+    padding: 40px 183px 190px 0;
   }
 
   header p {
