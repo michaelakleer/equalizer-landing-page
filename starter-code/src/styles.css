@@ -19,6 +19,7 @@
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -183,6 +184,11 @@ footer {
     height: 400px;
   }
 
+  .equalizer-container {
+    max-width: 696px;
+    max-height: 600px;
+  }
+
   h1 {
     font-size: 64px;
     line-height: 64px;
@@ -264,12 +270,8 @@ footer {
     background: url(../assets/bg-main-mobile.png) top -220px left 0 no-repeat;
   }
 
-  .body-design {
-    background: none;
-  }
-
-  .content {
-    padding: 0;
+  .equalizer-design {
+    display: none;
   }
 
   h1 {
@@ -283,33 +285,35 @@ footer {
   }
 
   header {
-    padding: 40px 0 40px 24px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 40px 0 150px;
   }
 
   .header-pattern {
     display: none;
   }
 
-  .section-one {
-    padding: 40px 0 140px 20px;
+  header .equalizer-logo {
+    margin-bottom: 50px;
   }
 
-  .section-one p {
+  header p {
     font-size: 16px;
     line-height: 26px;
+    padding: 0 10px 0 0;
   }
 
-  .section-two {
-    padding: 0 0 430px;
+  main {
+    padding: 0;
+    margin-bottom: 450px;
   }
 
-  .section-two-container {
-    max-width: 375px;
-    max-height: 546px;
-    border-radius: 10px;
+  .equalizer-container {
+    padding: 0 10px;
   }
 
-  .section-two .pattern {
+  .pattern {
     width: 280px;
     height: 420px;
     position: relative;
@@ -317,7 +321,7 @@ footer {
     left: 40px;
   }
 
-  .section-two .mobile {
+  .mobile {
     width: 208px;
     height: 430px;
     position: relative;
@@ -331,7 +335,7 @@ footer {
     padding: 30px;
     position: relative;
     top: -460px;
-    left: 0px;
+    left: -10px;
   }
 
   .premium-eq p {
@@ -348,7 +352,7 @@ footer {
   }
 
   footer {
-    padding: 0 0 50px 20px;
+    padding: 0 20px 50px;
   }
 
   footer p {
